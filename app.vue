@@ -1,7 +1,5 @@
 <script lang="ts" setup>
 import LangSwitcher from "@/components/LangSwitcher.vue";
-const { locales } = useI18n();
-const localeCodes = computed(() => locales.value.map((x) => (typeof x === "string" ? x : x.code)));
 </script>
 
 <template>
@@ -15,5 +13,4 @@ const localeCodes = computed(() => locales.value.map((x) => (typeof x === "strin
 :root {
 	font-family: sans-serif;
 }
-
 </style>
