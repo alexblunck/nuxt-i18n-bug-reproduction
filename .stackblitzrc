@@ -1,0 +1,4 @@
+{
+	"installDependencies": false,
+	"startCommand": "npm i -D @nuxtjs/i18n@>=8.0.0-rc && npm run dev"
+}
