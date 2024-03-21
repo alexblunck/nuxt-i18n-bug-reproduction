@@ -25,7 +25,6 @@ export default defineNuxtConfig({
 				file: "ja.json",
 			},
 		],
-		strategy: "prefix",
 		detectBrowserLanguage: false,
 	},
 });

@@ -8,7 +8,7 @@
 		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
-		"@nuxtjs/i18n": ">=8.0.0-rc",
-		"nuxt": "^3.8.0"
+		"@nuxtjs/i18n": "^8",
+		"nuxt": "^3"
 	}
 }
