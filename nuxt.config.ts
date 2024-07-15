@@ -2,10 +2,12 @@
 export default defineNuxtConfig({
 	modules: ["@nuxtjs/i18n"],
 	devtools: { enabled: false },
+	ssr: false,
 	i18n: {
 		lazy: true,
 		langDir: "locales",
 		defaultLocale: "en",
+		strategy: 'prefix',
 		locales: [
 			{
 				name: "English",
@@ -26,6 +28,8 @@ export default defineNuxtConfig({
 				file: "ja.json",
 			},
 		],
-		detectBrowserLanguage: false,
+		detectBrowserLanguage: {
+			redirectOn: 'no prefix'
+		},
 	},
 });
